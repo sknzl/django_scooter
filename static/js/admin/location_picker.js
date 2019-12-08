@@ -1,4 +1,3 @@
-console.log("test")
 document.addEventListener("DOMContentLoaded", function(){
     lastLat = document.querySelector('#id_last_lat')
     if (lastLat){
