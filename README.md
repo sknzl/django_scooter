@@ -1,5 +1,5 @@
 # Django Scooter
-Project related to the article in my [blog](https://sknzl.github.io/tracking-electric-scooters-in-lisbon/)
+Project related to the article in my [blog](https://sknzl.github.io/posts/tracking-electric-scooters-in-lisbon/)
 
 # How to use
 - PostgreSQL must be running with a created database called `scooter_db`.
