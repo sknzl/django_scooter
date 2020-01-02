@@ -1,7 +1,8 @@
 FROM python:3.7.4-alpine3.10
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache make g++ bash git openssh postgresql-dev curl
+    apk add --no-cache make g++ bash git openssh postgresql-dev curl && \
+    apk add libffi-dev openssl-dev
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
