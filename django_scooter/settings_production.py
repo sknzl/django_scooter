@@ -1,6 +1,6 @@
 import os
 
-DEBUG = True
+DEBUG = False
 
 
 name = os.environ.get("DATABASE_NAME")
