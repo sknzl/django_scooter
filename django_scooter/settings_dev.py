@@ -5,7 +5,7 @@ DEBUG = True
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "scooter_db",
+        "NAME": "django_scooter_3",
         "USER": "postgres"
     }
 }

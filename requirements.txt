@@ -1,9 +1,11 @@
 amqp==2.5.2
+argon2-cffi==19.1.0
 asgiref==3.2.3
 astroid==2.3.3
 billiard==3.6.1.0
 celery==4.3.0
 certifi==2019.11.28
+cffi==1.13.2
 chardet==3.0.4
 Django==2.2.8
 gunicorn==20.0.4
@@ -15,7 +17,9 @@ lazy-object-proxy==1.4.3
 mccabe==0.6.1
 more-itertools==8.0.2
 numpy==1.17.4
+pkg-resources==0.0.0
 psycopg2==2.8.4
+pycparser==2.19
 pylint==2.4.4
 pytz==2019.3
 redis==3.3.11
