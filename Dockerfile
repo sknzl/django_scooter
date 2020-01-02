@@ -11,8 +11,6 @@ COPY ./requirements.txt /usr/src/app/
 RUN pip install --no-cache-dir -r requirements.txt
 COPY ./ /usr/src/app
 
-EXPOSE 80
-
 COPY start_django.sh start_django.sh
 COPY start_celery.sh start_celery.sh
 COPY start_container.sh start_container.sh
