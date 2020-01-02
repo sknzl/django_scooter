@@ -10,7 +10,7 @@ host = os.environ.get("DATABASE_HOST")
 port = os.environ.get("DATABASE_PORT")
 
 
-    DATABASES = {
+DATABASES = {
         "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": name,
