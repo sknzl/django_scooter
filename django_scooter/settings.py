@@ -119,10 +119,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 GOOGLE_MAPS_API_KEY = os.environ.get("GOOGLE_MAPS_API_KEY")
 FLASH_DEVICE_KEY = os.environ.get("FLASH_DEVICE_KEY")
 
-CELERY_BROKER_URL=os.environ.get('REDIS_URL', 'redis://localhost:6379')
-CELERY_RESULT_BACKEND=os.environ.get('REDIS_URL', 'redis://localhost:6379')
-
 if os.environ.get("PRODUCTION") is None:
     from .settings_dev import *
 else:
     from .settings_production import *
+
+CELERY_BROKER_URL=os.environ.get('REDIS_URL', 'redis://localhost:6379')
+CELERY_RESULT_BACKEND=os.environ.get('REDIS_URL', 'redis://localhost:6379')
